@@ -40,7 +40,7 @@ function Page() {
 
     return (
         <div>
-            <p className="heading-txt">Quiz  App</p>
+            <h1 className="heading-txt"> IS. Quiz  App</h1>
             <div className="container">
                 {showResult ? (
                     <QuizResult score={score} totalScore={QuestionData.length} tryAgain={resetAll} />
